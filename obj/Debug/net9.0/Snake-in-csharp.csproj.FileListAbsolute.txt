@@ -1,0 +1,15 @@
+/Users/malthebk/Snake-in-csharp/bin/Debug/net9.0/Snake-in-csharp
+/Users/malthebk/Snake-in-csharp/bin/Debug/net9.0/Snake-in-csharp.deps.json
+/Users/malthebk/Snake-in-csharp/bin/Debug/net9.0/Snake-in-csharp.runtimeconfig.json
+/Users/malthebk/Snake-in-csharp/bin/Debug/net9.0/Snake-in-csharp.dll
+/Users/malthebk/Snake-in-csharp/bin/Debug/net9.0/Snake-in-csharp.pdb
+/Users/malthebk/Snake-in-csharp/obj/Debug/net9.0/Snake-in-csharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/malthebk/Snake-in-csharp/obj/Debug/net9.0/Snake-in-csharp.AssemblyInfoInputs.cache
+/Users/malthebk/Snake-in-csharp/obj/Debug/net9.0/Snake-in-csharp.AssemblyInfo.cs
+/Users/malthebk/Snake-in-csharp/obj/Debug/net9.0/Snake-in-csharp.csproj.CoreCompileInputs.cache
+/Users/malthebk/Snake-in-csharp/obj/Debug/net9.0/Snake-in-csharp.sourcelink.json
+/Users/malthebk/Snake-in-csharp/obj/Debug/net9.0/Snake-in-csharp.dll
+/Users/malthebk/Snake-in-csharp/obj/Debug/net9.0/refint/Snake-in-csharp.dll
+/Users/malthebk/Snake-in-csharp/obj/Debug/net9.0/Snake-in-csharp.pdb
+/Users/malthebk/Snake-in-csharp/obj/Debug/net9.0/Snake-in-csharp.genruntimeconfig.cache
+/Users/malthebk/Snake-in-csharp/obj/Debug/net9.0/ref/Snake-in-csharp.dll
