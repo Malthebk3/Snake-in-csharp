@@ -33,7 +33,7 @@ public class Program{
             if(input == 'd' && v != -1) { h = 0; v = 1; }
             if(input == 'w' && h != 1) { v = 0; h = -1; } 
             if(input == 's' && h != -1) { v = 0; h = 1; }
-
+            System.Threading.Thread.Sleep(100);
             mc.moveSnake(h, v);
             mc.createGrid();
         }
@@ -44,8 +44,24 @@ public class Program{
         int currentPOSy = snakePOSy[0] + v;
 
 
+        if (currentPOSx < 0 || currentPOSx >= gridsize || currentPOSy < 0 || currentPOSy >= gridsize) {
+            Console.WriteLine();
+            Console.WriteLine("Game Over. Snake hit the wall. (Press 'CTRL + C' TO EXIT!)");
+            System.Threading.Thread.Sleep(10000);
+            Environment.Exit(0);
+        }
+        
+        for (int i = 1; i < snakelength; ++i) {
+            if (snakePOSx[i] == currentPOSx && snakePOSy[i] == currentPOSy) {
+                Console.WriteLine();
+                Console.WriteLine("Game Over. You ran into yourself. (Press 'CTRL + C' TO EXIT!)");
+                System.Threading.Thread.Sleep(10000);
+                Environment.Exit(0);
+            }
+        }
+
         snakePOSx.Insert(0, currentPOSx);
-        snakePOSy.Insert(0, currentPOSy);
+        snakePOSy.Insert(0, currentPOSy);   
 
         if (snakePOSx.Count > snakelength) { snakePOSx.RemoveAt(snakePOSx.Count - 1); }
         if (snakePOSy.Count > snakelength) { snakePOSy.RemoveAt(snakePOSy.Count - 1); }
