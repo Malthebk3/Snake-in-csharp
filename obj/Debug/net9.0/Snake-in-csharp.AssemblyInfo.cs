@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Snake-in-csharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c62eb25cd99e9fe4f50cf004962b7d4eaf99561")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b8e649dacdcb4b209087fbaa7eb8626819a92e7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Snake-in-csharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Snake-in-csharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
